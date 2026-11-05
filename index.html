@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facts Over Feed | Wireframe</title>
+<meta name="description" content="Greyscale wireframe of the Facts Over Feed landing page.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="person" viewBox="0 0 24 60">
+      <circle cx="12" cy="6" r="5.5"/>
+      <path d="M6 13H18A4 4 0 0 1 22 17V32.5A2 2 0 0 1 18 32.5V19.5H17V57A2.25 2.25 0 0 1 12.5 57V36H11.5V57A2.25 2.25 0 0 1 7 57V19.5H6V32.5A2 2 0 0 1 2 32.5V17A4 4 0 0 1 6 13Z"/>
+    </symbol>
+    <clipPath id="fill-50"><rect y="30" width="24" height="30"/></clipPath>
+    <clipPath id="fill-62"><rect y="22.8" width="24" height="37.2"/></clipPath>
+  </defs>
+</svg>
+
+<header class="intro">
+  <h1>Facts Over Feed: wireframe</h1>
+  <p>Layout of the landing page, top to bottom. Crossed boxes are photos and grey bars are body text.</p>
+  <a href="https://ashuthegoat6.github.io/factsoverfeed/">View the live site</a>
+</header>
+
+<main class="board">
+
+  <section class="row">
+    <div class="block topbar"><b>FactsOverFeed</b><u>Sources</u></div>
+    <aside class="note"><b>1. Top bar</b>Stays pinned while scrolling. Logo returns to the top, and Sources jumps to the citations.</aside>
+  </section>
+
+  <section class="row">
+    <div class="block img tall">
+      <span class="img-label">Photo: young woman on her phone</span>
+      <div class="over">
+        <span class="pill">GLP-1 Facts</span>
+        <h2>You've seen the before and after. But what happened in between?</h2>
+        <i class="bar"></i><i class="bar short"></i>
+        <span class="button">Check before you trust</span>
+      </div>
+    </div>
+    <aside class="note"><b>2. Hero</b>Matches the first slide of the social carousel, so the jump from a post to the site feels continuous. The first thing to fade in on load.</aside>
+  </section>
+
+  <section class="row">
+    <div class="block stories">
+      <a href="#check"><i></i>Checklist</a>
+      <a href="#gap"><i></i>The gap</a>
+      <a href="#numbers"><i></i>Numbers</a>
+      <a href="#spot"><i></i>Spot it</a>
+      <a href="#sources"><i></i>Sources</a>
+    </div>
+    <aside class="note"><b>3. Story circles</b>Section links styled like Instagram story highlights.</aside>
+  </section>
+
+  <section class="row" id="check">
+    <div class="block">
+      <div class="post-head"><i class="avatar"></i><div><b>factsoverfeed</b><small>Swipe the checklist</small></div><span class="count">1/4</span></div>
+      <div class="carousel" tabindex="0" aria-label="Checklist slides. Scroll sideways.">
+        <div class="img slide"><span class="img-label">Photo</span><h3>1. Is the creator medically qualified?</h3></div>
+        <div class="img slide"><span class="img-label">Photo</span><h3>2. Are risks and side effects discussed?</h3></div>
+        <div class="img slide"><span class="img-label">Photo</span><h3>3. Is this a personal testimonial or evidence-based information?</h3></div>
+        <div class="img slide"><span class="img-label">Photo</span><h3>4. Is the post sponsored or promoting a product?</h3></div>
+      </div>
+      <div class="controls"><span>‹</span><div class="dots"><i class="on"></i><i></i><i></i><i></i></div><span>›</span></div>
+      <div class="pad"><i class="bar"></i><i class="bar short"></i></div>
+    </div>
+    <aside class="note"><b>4. Checklist carousel</b>Laid out like an Instagram post with the four PDF questions. Swipe, or use the arrows. This slider works here too.</aside>
+  </section>
+
+  <section class="row" id="gap">
+    <div class="block dark pad">
+      <span class="pill">The gap</span>
+      <h2>What viral transformation posts often leave out</h2>
+      <ol class="timeline">
+        <li><b>Potential side effects</b><i class="bar"></i></li>
+        <li><b>Medical eligibility</b><i class="bar"></i></li>
+        <li><b>Prescriptions</b><i class="bar short"></i></li>
+        <li><b>Ongoing medical supervision</b><i class="bar"></i></li>
+      </ol>
+      <div class="rule"></div>
+      <i class="bar"></i><i class="bar short"></i>
+    </div>
+    <aside class="note"><b>5. The gap</b>A timeline of what's missing between a before and an after, ending on one cited stat. The dark block breaks up the page.</aside>
+  </section>
+
+  <section class="row" id="numbers">
+    <div class="plain">
+      <span class="pill">The numbers</span>
+      <h2>Why this matters</h2>
+      <article class="block stat">
+        <div class="stat-row">
+          <div class="polaroids" role="img" aria-label="Eight polaroids, one highlighted"><i class="tint"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <strong>8 to 1</strong>
+        </div>
+        <i class="bar"></i><i class="bar short"></i><small>Source link</small>
+      </article>
+      <article class="block stat">
+        <div class="stat-row">
+          <strong>659%</strong>
+          <div class="figures" role="img" aria-label="Six and a half stick figures">
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person"/></svg>
+            <svg viewBox="0 0 24 60"><use href="#person" class="ghost"/><use href="#person" clip-path="url(#fill-50)"/></svg>
+          </div>
+        </div>
+        <i class="bar"></i><i class="bar short"></i><small>Source link</small>
+      </article>
+      <article class="block stat">
+        <div class="stat-row">
+          <strong>62%</strong>
+          <div class="figures" role="img" aria-label="One stick figure filled 62 percent">
+            <svg viewBox="0 0 24 60"><use href="#person" class="ghost"/><use href="#person" clip-path="url(#fill-62)"/></svg>
+          </div>
+        </div>
+        <i class="bar"></i><i class="bar short"></i><small>Source link</small>
+      </article>
+      <i class="bar"></i>
+    </div>
+    <aside class="note"><b>6. Why this matters</b>Each stat pairs with a simple visual so it reads at a glance, and each card links to its source. A note below says the numbers don't prove cause.</aside>
+  </section>
+
+  <section class="row" id="spot">
+    <div class="block">
+      <div class="pad">
+        <span class="pill">Try it</span>
+        <h2>Spot the post</h2>
+        <i class="bar"></i>
+      </div>
+      <div class="quiz">
+        <div class="quiz-post"><div class="post-head flat"><i class="avatar"></i><b>example_creator</b></div><i class="bar"></i><i class="bar short"></i></div>
+        <div class="answers"><span>Personal story</span><span>Promotion</span><span>Medical evidence</span></div>
+      </div>
+      <div class="quiz collapsed">Example post 2, same layout</div>
+      <div class="quiz collapsed">Example post 3, same layout</div>
+      <div class="score">Score appears here after all 3 answers</div>
+    </div>
+    <aside class="note"><b>7. Spot the post</b>Three mock posts to sort. Tapping an answer shows why it's right, so people practice the checklist before the page asks them to share.</aside>
+  </section>
+
+  <section class="row">
+    <div class="block img cta">
+      <span class="img-label">Photo: doctor with a patient</span>
+      <div class="over">
+        <h2>Your feed isn't your doctor.</h2>
+        <i class="bar"></i>
+        <span class="button">Share this check</span>
+      </div>
+    </div>
+    <aside class="note"><b>8. Share CTA</b>Directs people to a doctor or pharmacist, then asks them to share the site. Opens the phone's share menu, or copies the link on desktop.</aside>
+  </section>
+
+  <section class="row">
+    <div class="plain">
+      <h2>Why trust us?</h2>
+      <ul class="lines"><li><i class="bar"></i></li><li><i class="bar short"></i></li><li><i class="bar"></i></li></ul>
+    </div>
+    <aside class="note"><b>9. Why trust us</b>Non-profit, every claim cited, no sponsors from drug, telehealth or weight-loss companies.</aside>
+  </section>
+
+  <section class="row" id="sources">
+    <div class="plain">
+      <h2>Sources</h2>
+      <ul class="lines"><li><i class="bar"></i></li><li><i class="bar"></i></li><li><i class="bar short"></i></li></ul>
+    </div>
+    <aside class="note"><b>10. Sources</b>Full citations. Stat links land here and highlight the matching source.</aside>
+  </section>
+
+  <section class="row">
+    <div class="block dark footer"><i class="bar"></i><i class="bar short"></i></div>
+    <aside class="note"><b>11. Footer</b>Not-medical-advice notice and photo credits.</aside>
+  </section>
+
+</main>
+</body>
+</html>
