@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facts Over Feed | Second Version Wireframe</title>
+<meta name="description" content="Colour and image wireframe of the second version of the Facts Over Feed landing page.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="second-version.css">
+</head>
+<body>
+
+<header class="intro">
+  <h1>Facts Over Feed: second version wireframe</h1>
+  <p>Colour and images come first in this round. The stats move up and the quiz moves lower as a reward for staying. Bars are placeholders for text and stats. Photos are from Unsplash and Pexels.</p>
+  <nav class="versions" aria-label="Wireframe versions"><a href="first-version.html">First version</a><b>Second version</b><a href="index.html">Current version</a></nav>
+</header>
+
+<main class="board">
+
+  <section class="row">
+    <div class="block topbar"><b>Facts<span>Over</span>Feed</b><i class="bar link"></i></div>
+  </section>
+
+  <section class="row">
+    <div class="block photo hero" role="img" aria-label="Young woman smiling at her phone" style="--img:url('https://images.unsplash.com/photo-1653762379954-8943c787e78b?w=1080&q=75&auto=format&fit=crop')">
+      <div class="photo-text">
+        <span class="pill">Headline</span>
+        <i class="bar head"></i><i class="bar head accent short"></i>
+        <i class="bar"></i>
+        <span class="button"><i class="bar"></i></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="block stories">
+      <a href="#check"><i></i>Checklist</a>
+      <a href="#gap"><i></i>The gap</a>
+      <a href="#numbers"><i></i>Numbers</a>
+      <a href="#spot"><i></i>Spot it</a>
+      <a href="#sources"><i></i>Sources</a>
+    </div>
+  </section>
+
+  <section class="row" id="check">
+    <div class="block">
+      <div class="post-head"><i class="avatar"></i><div><b>factsoverfeed</b><i class="bar sub"></i></div><span class="count">1/4</span></div>
+      <div class="carousel" tabindex="0" aria-label="Checklist slides. Scroll sideways.">
+        <div class="photo slide" role="img" aria-label="Doctor filming a video on a phone" style="--img:url('https://images.pexels.com/photos/19957215/pexels-photo-19957215.jpeg?auto=compress&cs=tinysrgb&w=900')"><div class="photo-text"><i class="bar head"></i><i class="bar head accent short"></i></div></div>
+        <div class="photo slide" role="img" aria-label="Doctor talking with a patient at a desk" style="--img:url('https://images.unsplash.com/photo-1758691461957-474a7686e388?w=900&q=75&auto=format&fit=crop')"><div class="photo-text"><i class="bar head"></i><i class="bar head accent short"></i></div></div>
+        <div class="photo slide" role="img" aria-label="Hands holding a phone showing a health app" style="--img:url('https://images.pexels.com/photos/17947753/pexels-photo-17947753.jpeg?auto=compress&cs=tinysrgb&w=900')"><div class="photo-text"><i class="bar head"></i><i class="bar head accent short"></i></div></div>
+        <div class="photo slide" role="img" aria-label="Person browsing a social media profile on a phone" style="--img:url('https://images.pexels.com/photos/6255898/pexels-photo-6255898.jpeg?auto=compress&cs=tinysrgb&w=900')"><div class="photo-text"><i class="bar head"></i><i class="bar head accent short"></i></div></div>
+      </div>
+      <div class="controls"><span>‹</span><div class="dots"><i class="on"></i><i></i><i></i><i></i></div><span>›</span></div>
+      <div class="pad"><i class="bar"></i><i class="bar short"></i></div>
+    </div>
+  </section>
+
+  <section class="row" id="gap">
+    <div class="block dark pad">
+      <span class="pill">The gap</span>
+      <i class="bar head"></i><i class="bar head accent short"></i>
+      <ol class="timeline">
+        <li><i class="bar label"></i><i class="bar"></i></li>
+        <li><i class="bar label"></i><i class="bar"></i></li>
+        <li><i class="bar label"></i><i class="bar short"></i></li>
+        <li><i class="bar label"></i><i class="bar"></i></li>
+      </ol>
+      <div class="rule"></div>
+      <i class="bar"></i><i class="bar short"></i>
+    </div>
+  </section>
+
+  <section class="row" id="numbers">
+    <div class="plain">
+      <span class="pill">The numbers</span>
+      <i class="bar head green"></i>
+      <article class="block stat"><i class="bar number"></i><i class="bar"></i><i class="bar short"></i></article>
+      <article class="block stat"><i class="bar number"></i><i class="bar"></i><i class="bar short"></i></article>
+      <article class="block stat"><i class="bar number"></i><i class="bar"></i><i class="bar short"></i></article>
+      <article class="block stat"><i class="bar number"></i><i class="bar"></i><i class="bar short"></i></article>
+    </div>
+  </section>
+
+  <section class="row" id="spot">
+    <div class="block">
+      <div class="pad">
+        <span class="pill">Quiz</span>
+        <i class="bar head green"></i>
+        <i class="bar"></i>
+      </div>
+      <div class="quiz">
+        <div class="quiz-post"><div class="post-head flat"><i class="avatar"></i><i class="bar sub"></i></div><i class="bar"></i><i class="bar short"></i></div>
+        <div class="answers"><span><i class="bar"></i></span><span><i class="bar"></i></span><span><i class="bar"></i></span></div>
+      </div>
+      <div class="quiz collapsed"><i class="bar short"></i></div>
+      <div class="quiz collapsed"><i class="bar short"></i></div>
+      <div class="score"><i class="bar short"></i></div>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="block photo cta" role="img" aria-label="Doctor talking with a patient" style="--img:url('https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080&q=75&auto=format&fit=crop')">
+      <div class="photo-text">
+        <i class="bar head"></i><i class="bar head accent short"></i>
+        <i class="bar"></i>
+        <span class="button"><i class="bar"></i></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="plain">
+      <span class="pill">Why trust us</span>
+      <ul class="lines"><li><i class="bar"></i></li><li><i class="bar short"></i></li><li><i class="bar"></i></li></ul>
+    </div>
+  </section>
+
+  <section class="row" id="sources">
+    <div class="plain">
+      <span class="pill">Sources</span>
+      <ul class="lines"><li><i class="bar"></i></li><li><i class="bar"></i></li><li><i class="bar short"></i></li></ul>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="block dark footer"><i class="bar"></i><i class="bar short"></i></div>
+  </section>
+
+</main>
+</body>
+</html>

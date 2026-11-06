@@ -1,0 +1,82 @@
+/* Second version: colour and photos layered over the shared wireframe styles */
+:root {
+  --green-900: #12301a;
+  --green-800: #1b4423;
+  --green-700: #2a6318;
+  --green-100: #e6efe2;
+  --yellow: #ffdd55;
+  --ink: #16241a;
+  --mid: #55655a;
+  --line: #d9e2d6;
+  --fill: #e6efe2;
+  --paper: #ffffff;
+  --page: #f3f6f1;
+  --dark: #12301a;
+}
+
+body { font: 500 17px/1.4 "League Spartan", system-ui, sans-serif; }
+.intro h1 { font-weight: 800; }
+.intro p { color: var(--mid); }
+
+.block { border: 1px solid var(--line); border-radius: 18px; }
+
+/* Placeholders */
+.bar { background: #c9d6c5; }
+.bar.head { height: 24px; margin: 12px 0; border-radius: 4px; background: #fff; }
+.bar.head.accent { background: var(--yellow); }
+.bar.head.green { width: 70%; background: var(--green-700); }
+.bar.number { width: 52%; height: 52px; margin: 0 0 12px; border-radius: 6px; background: var(--green-700); }
+.bar.sub { width: 110px; height: 9px; margin: 4px 0 0; }
+.bar.link { width: 58px; margin: 0; background: rgba(255,255,255,.7); }
+.bar.label { width: 60%; height: 15px; background: var(--yellow); }
+
+.pill { padding: 7px 16px 5px; border: 0; background: var(--green-700); color: #fff; font-size: 14px; }
+.button { display: block; width: 190px; margin-top: 14px; padding: 15px 24px; background: var(--yellow); }
+.button .bar { height: 12px; margin: 0; background: var(--green-900); }
+
+/* Photo with the green overlay used on the posts */
+.photo {
+  position: relative; display: flex; align-items: flex-end;
+  background:
+    linear-gradient(180deg, rgba(18,48,26,.08) 15%, rgba(27,68,35,.74) 58%, rgba(18,48,26,.97) 100%),
+    var(--img) center / cover no-repeat var(--green-800);
+}
+.photo .bar:not(.head) { background: rgba(255,255,255,.65); }
+.photo .button .bar { background: var(--green-900); }
+.photo-text { width: 100%; padding: 24px 20px; }
+.hero { min-height: 560px; background-size: 100% 100%, auto 68%; background-position: 0 0, center top; }
+.cta { height: auto; min-height: 420px; }
+.slide { padding: 0; }
+
+.topbar { border: 0; background: var(--green-900); color: #fff; font-size: 20px; font-weight: 800; }
+.topbar span { color: var(--yellow); }
+
+.stories a { font-weight: 600; }
+.stories i { width: 52px; height: 52px; border: 3px solid var(--yellow); background: var(--green-800); box-shadow: inset 0 0 0 2px var(--paper); }
+
+.avatar { background: var(--green-700); }
+.count { padding: 3px 10px 1px; border-radius: 99px; background: var(--green-900); color: #fff; }
+.controls span { border: 1px solid var(--line); color: var(--green-900); }
+.dots i.on { background: var(--green-700); }
+
+.dark { border: 0; }
+.dark .bar:not(.head):not(.label) { background: rgba(255,255,255,.4); }
+.timeline { margin-top: 14px; padding-left: 18px; border-left: 3px solid var(--yellow); }
+.timeline li { position: relative; padding: 11px 0; }
+.timeline li::before {
+  content: ""; position: absolute; left: -26.5px; top: 14px;
+  width: 14px; height: 14px; border-radius: 50%; background: var(--yellow);
+}
+.rule { background: rgba(255,255,255,.25); }
+
+.stat { padding: 20px 16px; }
+
+.quiz { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.answers span { border-color: var(--green-700); border-radius: 12px; }
+.answers .bar { width: 45%; margin: 3px 0; }
+.collapsed .bar { margin: 2px 0; }
+.score { border-radius: 12px; }
+.score .bar { margin: 3px 0; background: var(--yellow); }
+
+.lines { margin-top: 10px; }
+.lines li::before { color: var(--green-700); }
